@@ -1,0 +1,75 @@
+body {
+    font-family: serif;
+    font-size: 15px;
+    background-color: #71C9CE;
+}
+
+.date {
+    width: 300px;
+    background-color: #A6E3E9;
+    /* background-color: #CBF1F5; */
+    margin: 30px 50px auto;
+    padding: 10px;
+    float: left;
+    border: 1px;
+    border-width: 1px;
+    border: solid;
+    border-radius: 20px;
+}
+
+.note {
+    width: 800px;
+    /* background-color: #A6E3E9; */
+    background-color: #CBF1F5; 
+    margin: 30px auto;
+    padding: 10px;
+    float: left;
+    border-width: 1px;
+    border:solid;
+    border-radius: 20px;
+}
+
+a {
+    text-decoration-line: none;
+    font-style: italic;
+    font-size: large;
+    color: darkgrey;
+}
+
+
+ul {
+    list-style: none;
+}
+
+li#id {
+    font-size: x-large;
+    font-style: italic;
+    color: rgb(131, 82, 82);
+    text-align: center;
+    margin-top: 20px;
+}
+
+.withId {
+    font-size: x-large;
+    font-style: italic;
+    color: rgb(131, 82, 82);
+    text-align: center;
+    margin-top: 20px;
+}
+
+@counter-style greater {
+    system: cyclic;
+    symbols: ">>>";
+    suffix: "  ";
+
+  }
+  
+.eventList {
+    list-style-type: greater;
+    margin-top: 10px;
+}
+
+
+li {
+    margin-top: 4px;
+}
